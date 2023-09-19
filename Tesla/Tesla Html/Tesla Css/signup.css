@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'M PLUS 1', sans-serif;
+    color: #171a20;
+    top: 0;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    color: inherit;
+    justify-content: space-between;
+}
+
+header nav .right{
+    display: flex;
+    margin-right: 15px;
+    margin-top: 35%;
+}
+
+header nav .right a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.logo img{
+    width: 130px;
+    height: 90px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.form-heading{
+    text-align: start;
+    margin-top: 5%;
+    position: absolute;
+    left: 40%;
+    padding-top: 10px;
+}
+
+.form-heading h2{
+    font-size: 35px;
+    color: inherit;
+}
+
+.form-heading h5{
+    font-size: 15px;
+    color: gray;
+}
+
+form{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    display: grid;
+    width: 25%;
+}
+
+form label{
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+form input[type = text]{
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(240, 240, 240);
+}
+
+form p{
+    margin-top: 80px;
+    color: rgb(112, 112, 112);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+form p a{
+    color: inherit;
+}
+
+form .next-btn{
+    color: white;
+    background-color: rgb(154, 154, 255);
+    width: 100%;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+form .next-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+footer{
+    position: absolute;
+    top: 97%;
+    left: 43%;
+}
+
+footer a{
+    text-decoration: none;
+    padding-right: 25px;
+    color: inherit;
+    font-size: 13px;
+    font-weight: 400;
+}
