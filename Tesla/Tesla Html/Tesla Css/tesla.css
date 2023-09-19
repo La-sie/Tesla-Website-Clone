@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'M PLUS 1', sans-serif;
+    color: #171a20;
+    top: 0;
+}
+
+header{
+    color: inherit;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+}
+
+header nav{
+    margin-top: 25px;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+header .center{
+    text-align: center;
+}
+
+header .center a{
+    text-decoration: none;
+    color: inherit;
+    padding-right: 30px;
+} 
+
+header .right a{
+    text-decoration: none;
+    color: inherit;
+}
+
+header .right a span{
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.right a span:last-child{
+    margin-right: 25px;
+}
+
+.logo img{
+    width: 130px;
+    height: 90px;
+    padding: 0 15px;
+    margin-left: 10px;
+}
+
+section{
+    height: 100vh;
+    position: relative;
+}
+
+section .content{
+    width: 100%;
+    height: 100vh;
+    padding-top: 15vh;
+    padding-bottom: 90vh;
+    text-align: center;
+    display: grid;
+    grid-template-rows: min-content auto min-content;
+}
+
+section .content h1{
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+section .content h4{
+    margin-bottom: 3px;
+    font-size: 18px;
+}
+
+section .content p{
+    font-size: 13px;
+}
+
+section .content a{
+    text-decoration: underline;
+    color: inherit;
+}
+
+section .section-btn{
+    display: flex;
+    justify-content: space-around;
+    position:absolute;
+    top: 80%;
+    left: 26%;
+    width: 50%;
+    height: 90%;
+    align-content: center;
+}
+
+section .section-btn button{
+    height: 50px;
+    width: 330px;
+    border-radius: 5px;
+    border: none;
+}
+
+section .section-btn .btn-1{
+    background-color: white;
+    color: inherit;
+    font-size: 15px;
+    opacity: 60%;
+}
+
+section .section-btn .btn-2{
+    background-color: #171a20;
+    opacity: 60%;
+    color: white;
+    font-size: 15px;
+}
+
+.bottom-section{
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    bottom: 0;
+}
+
+.bottom-section .background-clip{
+    position: relative;
+    width: 100%;
+    background-size: contain;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.bottom-section .video-content{
+    position: absolute;
+    text-align: center;
+    left: 43%;
+    top: 25%;
+}
+
+.bottom-section .video-content h1{
+    font-size: 35px;
+    color: white;
+}
+
+.bottom-section .video-btn{
+    position: absolute;
+    left: 45%;
+    top: 88%;
+}
+
+.bottom-section .video-btn button{
+    padding: 10px;
+    font-size: 15px;
+    width: 200px;
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+}
+
+.section-end{
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    color: white;
+    left: 30%;
+    top: 98%;
+    margin-top: 50px;
+}
+
+.section-end a{
+    text-decoration: none;
+    padding-right: 15px;
+    color: inherit;
+}
+
+.section-end a:hover{
+    color: black;
+}
