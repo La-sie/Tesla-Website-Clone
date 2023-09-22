@@ -41,6 +41,15 @@ header .right a{
     color: inherit;
 }
 
+header .right a:last-child{
+    display: none;
+    padding: 4px;
+    background-color: transparent;
+    opacity: 75%;
+    color: white;
+    border-radius: 5px;
+}
+
 header .right a span{
     font-size: 25px;
     font-weight: 200;
@@ -127,6 +136,10 @@ section .section-btn .btn-2{
     font-size: 15px;
 }
 
+.accessories-end a{
+    display: none;
+}
+
 .bottom-section{
     display: inline-block;
     text-align: center;
@@ -191,3 +204,102 @@ section .section-btn .btn-2{
 .section-end a:hover{
     color: black;
 }
+
+@media screen and ( max-width: 768px) {
+    
+    body{
+        font-family: 'M PLUS 1', sans-serif;
+        color: #171a20;
+        top: 0;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    header{
+        background-color: transparent
+    }
+
+    header nav{
+        margin-top: 35px;
+        font-weight: 800;
+        font-size: 15px;
+    }
+    
+    header .center{
+        display: none;
+    }
+
+    header .right a:first-child{
+        display: none;
+    }
+
+    header .right a:nth-child(2){
+        display: none;
+    }
+
+    header .right a:nth-child(3){
+        display: none;
+    }
+    
+    header .right a:last-child{
+        display: initial;
+        margin-right: 20px;
+        padding: 8px;
+        color: #171a20;
+        border-radius: 5px;
+    }
+
+    section{
+        height: 100vh;
+        width: 100%;
+    }
+
+    section .section-btn{
+        width: 100%;
+        height: 15vh;
+        display: inline;
+        align-items: center;
+        left: 0;
+    }
+
+    section .section-btn button{
+        margin-bottom: 10px;
+        width: 85%;
+        height: 40px;
+    }
+
+    section .section-btn .btn-3{
+        top: -60%;
+        left: 8%;
+        position: absolute;
+    }
+
+    .accessories-end{
+        text-align: center ;
+        font-size: 12px;
+        font-weight: 600;
+        position: absolute;
+        color: white;
+        top: 84%;
+        display: grid;
+        background-color: #171a20;
+        height: 22vh;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .accessories-end a{
+        text-decoration: none;
+        display: initial;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .bottom-section{
+       display: none;
+    }
+}
+
+
