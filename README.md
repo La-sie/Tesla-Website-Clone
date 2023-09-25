@@ -6,5 +6,7 @@
 
 <h3> IMAGES </h3>
 <h5> DESKTOP</h5>
+<img src="./Tesla/Tesla Html/Images/screen2.png" alt="">
 <br>
 <h5> MOBILE PHONE</h5>
+<img src="./Tesla/Tesla Html/Images/screen1.png" alt="">
