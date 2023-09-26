@@ -52,7 +52,7 @@ header nav .right a{
 }
 
 .form-heading h5{
-    font-size: 15px;
+    font-size: 12x;
     color: gray;
 }
 
@@ -120,6 +120,65 @@ footer a{
     font-weight: 400;
 }
 
-    @media screen and (max-width : 768px){
-        
+@media screen and (max-width: 768px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
+    
+    body{
+        font-family: 'M PLUS 1', sans-serif;
+        color: #171a20;
+        top: 0;
+    }
+    
+    header{
+        display: flex;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        color: inherit;
+        justify-content: space-between;
+    }
+    
+    header nav .right{
+        display: flex;
+        margin-right: 15px;
+        margin-top: 35%;
+    }
+    
+    header nav .right a{
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .form-heading{
+        margin-top: 90px;
+        left: 10%;
+    }
+
+    form{
+       width: 80%;
+       left: 10%;
+    }
+
+    footer{
+        position: absolute;
+        top: 95%;
+        left: 20%;
+    }
+    
+    footer a{
+        text-decoration: none;
+        padding-right: 25px;
+        color: inherit;
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    footer a:hover{
+        color: rgb(59, 59, 233);
+        font-weight: 400;
+    }
+}
